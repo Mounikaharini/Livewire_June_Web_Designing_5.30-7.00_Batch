@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            
+            height: 50px;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgb(66, 65, 65);
+            border-radius: 20px;
+            
+        }
+        div ul{
+            color: brown;
+            font-size: 24px;
+            position: absolute;
+            
+        }
+        div ul li{
+            list-style-type: none;
+            /* padding: 20px; */
+            padding: 0 20px;
+            margin: 10px 0;
+        }
+        div ul li ul{
+            display: none;
+            
+        }
+        div ul li:hover>ul{
+            display: block;
+        }
+        .h{
+            height: 50px;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 2px 2px 5px rgb(66, 65, 65);
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul style="display: flex;justify-content: space-between;">
+        <li>Home</li>
+        <li>Product
+            <ul>
+                <li class="h">Mens Ware</li>
+                <li class="h">Womens Ware</li>
+                <li class="h">Kids ware</li>
+            </ul>
+        </li>
+        <li>Contact</li>
+    </ul>
+    </div>
+</body>
+
+</html>

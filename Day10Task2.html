@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 70px;
+            height: 50px;
+            border-radius: 5px;
+            background: coral;
+            /* animation: x 2s;
+            animation-iteration-count: infinite;
+            position: absolute; */
+        }
+        .a:hover{
+            width: 170px;
+            height: 150px;
+            border-radius: 15px;
+            background: rgb(196, 52, 0);
+            transition: 2s;
+        }
+        @keyframes x {
+            from{
+                background: rgb(253, 176, 148);
+                left: 0;
+            }
+            to{
+                background: rgb(2, 24, 66);
+                transform: rotateZ(20deg);
+                left: 350px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="a"><h1>hello</h1></div>
+</body>
+</html>
