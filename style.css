@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+* {
+    box-sizing: border-box;
+    background: #550000;
+    font-family: "Google Sans", sans-serif;
+}
+
+.login .container{
+    position: absolute;
+    /* Breaks out of normal document flow */
+    top: 50%;
+    /* Pushes the top edge to the middle */
+    left: 50%;
+    /* Pushes the left edge to the middle */
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    /* float: right; */
+    width: 450px;
+    height: 400px;
+    background: linear-gradient(135deg, #BF953F, #e2dda6, #AA771C);
+    box-shadow: 0px 0px 5px rgb(145, 144, 144);
+    border: 1px solid rgba(141, 125, 125, 0.322);
+    border-radius: 20px;
+}
+.container form{
+    margin: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+.container form,input,label{
+    background: transparent;
+    
+}
+
+.container form input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    transition: 0.1s;
+}
+
+.container form input:hover{
+    background: linear-gradient(135deg, #BF953F, #e2dda6, #AA771C);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.container form button{
+    background: linear-gradient(135deg, #BF953F, #e2dda6, #AA771C);
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+}
+.container form button:hover{
+    background: #550000;
+    border: none;
+    color: #e2dda6;
+}
