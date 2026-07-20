@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: #cb9f0c;
+            color: black;
+            font-family: calibri;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="value1">....</h1>
+    <h1 id="value2">....</h1>
+    <h1 id="value3">....</h1>
+    <h1 id="value4"></h1>
+    <script>
+        // var a = prompt("Enter a number : ");
+        // var b = prompt("Enter a number : ");
+        // if(a<=b){
+        //     document.getElementById("value1").innerHTML=a;
+        // }
+        // else{
+        //     document.getElementById("value1").innerHTML=b;
+        // }
+
+        var color = prompt("Enter the signal color (red/yellow/green)")
+
+        switch(color){
+            case "red":
+                document.getElementById("value1").innerHTML="Stop";
+                break;
+            case "yellow":
+                document.getElementById("value2").innerHTML="Ready";
+                break;
+            case "green":
+                document.getElementById("value3").innerHTML="Go";
+                break;
+            default:
+                document.getElementById("value4").innerHTML="Invalid Op tion";
+        }
+
+    </script>
+</body>
+</html>
