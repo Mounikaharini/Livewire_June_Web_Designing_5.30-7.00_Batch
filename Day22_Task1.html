@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var a = new Date();
+        // document.write(a);
+
+        // document.write(a.toLocaleTimeString());
+        // document.write(Math.min(1,25,3,6,2,4,8));
+
+        var WD = {
+            "Trainer": "Mounika",
+            "Course": "Python Full Stack",
+            "Duration": "180 hr",
+            "Tools Covered": "Python,WD , SQL, DJ"
+        };
+
+        document.write(JSON.stringify(WD["Trainer"]));
+
+        var college = new Map([
+            ["lakshmi", 90],
+            ["bhavani", 95],
+            ["eisha", 85],
+            ["reshma", 89]
+        ]);
+        document.write(college.get("reshma"));
+        college.set("mounika",22);
+        document.write(college.get("mounika"));
+    </script>
+</body>
+
+</html>

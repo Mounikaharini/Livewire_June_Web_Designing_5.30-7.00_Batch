@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function a() {
+            document.write("hi");
+        }
+        a();
+
+        //without parameter without return
+        function add() {
+            var a = 90;
+            var b = 90;
+            document.write(a + b);
+        }
+        add();
+
+        //with parameter without return
+        function add1(a, b) {
+            document.write(a + b);
+        }
+        add1(20, 36);
+        var x = 458;
+        var y = 257;
+        add1(x, y);
+
+        //without parameter with return
+        function add4() {
+            return 54 + 25;
+        }
+        var m = add4();
+        document.write(m);
+
+        //with parameter with return
+        function add2(a, b) {
+            var c = a + b;
+            return c;
+        }
+
+        var n = add2(15, 5285);
+        document.write(n);
+
+
+
+
+
+    </script>
+</body>
+
+</html>
