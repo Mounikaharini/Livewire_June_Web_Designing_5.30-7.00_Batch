@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // class Food{
+        //     food(){
+        //         document.write("Food in Good taste, that are classified by two types -> 1.Veg , 2.Non-Veg");
+        //     }
+        // }
+        // class Veg extends Food{
+        //     vegFood(){
+        //         document.write("any food that does not contain meat, poultry, fish, or seafood. It relies instead on plants and plant-like items. Many types also include animal by-products like milk, cheese, and eggs.");
+        //     }
+        // }
+        // class nonVeg extends Food{
+        //     nonVegFood(){
+        //         document.write("Non-vegetarian food is any food that contains meat, poultry, fish, seafood, or the flesh of any other animal. It also includes eggs and products derived from animal slaughter (such as animal-based broths, gelatin, or lard), but excludes dairy like milk and curd.");
+        //     }
+        // }
+        // let a = new Food();
+        // a.food();
+
+        // let b = new Veg();
+        // b.food();
+        // b.vegFood();
+
+        // let c = new nonVeg();
+        // c.food();
+        // c.nonVegFood();
+
+        // class staff{
+        //     controlStaff(){
+        //         document.write("Staffs can control students only <br>");
+        //     }
+        // }
+        // class Hod extends staff{
+        //     hodControl(){
+        //         document.write("HOD can control staffs <br>");
+        //     }
+        // }
+        // class principal extends Hod{
+        //     principalControl(){
+        //         document.write("Principal can control HOD's <br>");
+        //     }
+        // }
+
+        // let a = new staff();
+        // a.controlStaff();
+
+        // let b = new Hod();
+        // b.controlStaff();
+        // b.hodControl();
+
+        // let c = new principal();
+        // c.controlStaff();
+        // c.hodControl();
+        // c.principalControl();
+
+
+        //encapsulation
+        // class Bank{
+        //     constructor(amt){
+        //         this.amt=amt;
+        //     }
+        //     getAmt(){
+        //        return this.amt; 
+        //     }
+        // }
+        // let z = new Bank(2000);
+        // document.write(z.getAmt());
+
+        // class AdminAccess{
+        //     constructor(username,password,phone){
+        //         this.username=username;
+        //         this.password=password;
+        //         this.phone=phone;
+        //     }
+        //     getUsername(){
+        //         return this.username;
+        //     }
+        //     getPassword(){
+        //         return this.password;
+        //     }
+        //     getPhone(){
+        //         return this.phone;
+        //     }
+        // }
+        // let x = new AdminAccess("admin",12345,9632147850);
+        // document.write(x.getUsername());
+        // document.write(x.getPassword());
+        // document.write(x.getPhone());
+
+        //polymorphism
+        // class Hotel{
+        //     Foods(){
+        //         document.write("We have Veg / Non Veg Foods here <br>");
+        //     }
+        //     Additional(){
+        //         document.write("Not Available <br>");
+        //     }
+        // }
+
+        // class Hotel1 extends Hotel{
+        //     Additional(){
+        //         document.write("We Have Starters <br>");
+        //     }
+        // }
+
+        // class Hotel2 extends Hotel{
+        //     Additional(){
+        //         document.write("We Have Juices <br>");
+        //     }
+        // }
+
+        // let h = new Hotel();
+        // h.Foods();
+        // h.Additional();
+        
+        // let h1 = new Hotel1();
+        // h1.Foods();
+        // h1.Additional();
+
+        // let h2 = new Hotel2();
+        // h2.Foods();
+        // h2.Additional();
+
+        //abstraction
+        // class Order{
+        //     orderFood(){
+        //         this.#Step1();
+        //         this.#Step2();
+        //         this.#Step3();
+        //         document.write("Food is Ready !....  <br>");
+        //     }
+        //     #Step1(){
+        //         document.write("Collect Ingredients <br>");
+        //     }
+        //     #Step2(){
+        //         document.write("Cook The Ingredients <br>");
+        //     }
+        //     #Step3(){
+        //         document.write("Make Plating With Decors <br>");
+        //     }
+        // }
+        // let o = new Order();
+        // o.orderFood();
+    </script>
+</body>
+</html>
