@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="a1">Click A1</button>
+    <h1 id="data"></h1>
+    <script>
+        // document.getElementById("a1").addEventListener("click",f1);
+        // document.getElementById("a1").addEventListener("click",f2);
+        // function f1(){
+        //     alert("HI");
+        // }
+        // function f2(){
+        //     alert("BYE");
+        // }
+
+        window.addEventListener("resize", f3);
+        function f3() {
+            document.getElementById("data").innerHTML = Math.random();
+        }
+        // document.write(window.navigator.serviceWorker);
+        document.write(screen.availHeight);
+        document.write(screen.availWidth);
+        document.write(screen.colorDepth);
+        document.write(screen.orientation.angle);
+
+        document.write(location.origin + "<br>");
+        document.write(location.host + "<br>");
+        document.write(location.port + "<br>");
+        document.write(location.hostname + "<br>");
+        document.write(location.protocol + "<br>");
+    </script>
+</body>
+
+</html>

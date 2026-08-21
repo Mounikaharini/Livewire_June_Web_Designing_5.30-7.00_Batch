@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var z = [526, 236, 522, 9963, 554];
+        var y = z[Symbol.iterator]();
+        document.write(JSON.stringify(y.next()));
+        document.write(JSON.stringify(y.next()));
+        document.write(JSON.stringify(y.next()));
+        document.write(JSON.stringify(y.next()));
+        document.write(JSON.stringify(y.next()));
+        document.write(JSON.stringify(y.next()));
+
+        function* anup() {
+            yield 10;
+            // yield*z;
+            yield 30;
+            try {
+                yeild;
+            } catch (e) {
+                document.write(e);
+            }
+            finally{
+                document.write("hi im finally");
+            }
+
+            throw new Error("hi.........");
+        }
+        for (let output of anup()) {
+            document.write(output);
+        }
+    </script>
+</body>
+
+</html>
